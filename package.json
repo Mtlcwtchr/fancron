@@ -1,0 +1,39 @@
+{
+  "name": "worldbuilder-atlas",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Client-only vector map + editable historical timeline for worldbuilders. No backend, no database.",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "d3-array": "^3.2.4",
+    "d3-axis": "^3.0.0",
+    "d3-delaunay": "^6.0.4",
+    "d3-drag": "^3.0.0",
+    "d3-geo": "^3.1.1",
+    "d3-quadtree": "^3.0.1",
+    "d3-scale": "^4.0.2",
+    "d3-selection": "^3.0.0",
+    "d3-zoom": "^3.0.0",
+    "jszip": "^3.10.1"
+  },
+  "devDependencies": {
+    "@types/d3-array": "^3.2.1",
+    "@types/d3-axis": "^3.0.6",
+    "@types/d3-delaunay": "^6.0.4",
+    "@types/d3-drag": "^3.0.7",
+    "@types/d3-geo": "^3.1.0",
+    "@types/d3-quadtree": "^3.0.6",
+    "@types/d3-scale": "^4.0.8",
+    "@types/d3-selection": "^3.0.11",
+    "@types/d3-zoom": "^3.0.8",
+    "@types/geojson": "^7946.0.14",
+    "typescript": "^5.9.2",
+    "vite": "^7.1.0"
+  }
+}
